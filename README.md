@@ -1,5 +1,4 @@
 # HEAPSORT
-## Overview
 This repository provides code and tests that implements a Heap Sort algorithm to sort a list in **O(N*log(N)) time**. 
 
 ## Returns
