@@ -5,17 +5,17 @@ from main import build_max_heap
 
 
 # #TEST NONE INPUT
-# print(heapsort(None) == None)
+print(heapsort(None) == None)
 
 # # TEST EMPTY INPUT
-# print(heapsort([]) == [])
+print(heapsort([]) == [])
 
 # # BASE TEST
-print(heapsort([1,2,3]))
+print(heapsort([1,2,3]) == [1,2,3])
 
-print(heapsort([3, 2, 1]))
+print(heapsort([3, 2, 1]) == [1,2,3])
 
-print(heapsort([9,8,7,6,5,4,3,2,1]))
+print(heapsort([9,8,7,6,5,4,3,2,1]) == [1,2,3,4,5,6,7,8,9])
 
 # # TEST SWAP 
 # x1 = 1
